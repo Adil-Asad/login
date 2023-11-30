@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* login page css start */
+/* core & body */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa:wght@400;500;600;700&display=swap');
+@import url('https://db.onlinewebfonts.com/c/9e22e3ba40b6b9bbaccbe43485f652dd?family=Gardner+Sans+Mammoth');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body {
+  font-family: 'Noto Sans Tangsa', sans-serif;
+}
+
+.login-bg {
+  background-color: black;
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  background-color: #181717;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  height: 60vh;
+  width: 490px;
+}
+.mav-login-logo {
+  max-width: 358px;
+  height: 66px;
+}
+
+.close-btn {
+  position: absolute;
+  top: -7px;
+  right: -5px;
+  background-color: #3e3d3d;
+  padding: 6px 5px 3px 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: larger;
+}

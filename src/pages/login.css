@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* login page css start */
+/* core & body */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa:wght@400;500;600;700&display=swap');
+@import url('https://db.onlinewebfonts.com/c/9e22e3ba40b6b9bbaccbe43485f652dd?family=Gardner+Sans+Mammoth');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body {
+  font-family: 'Noto Sans Tangsa', sans-serif;
+
+  color: #565551;
+}
+
+/* main container  */
+/* image */
+
+.container {
+  display: flex;
+  width: 100%;
+  background-color: #efefef;
+}
+.img-bg {
+  width: 26%;
+}
+.login-img {
+  height: 99vh;
+}
+/* login */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: white;
+}
+.login-account {
+  width: 60%;
+}
+
+.login-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: black;
+}
+
+.email-lable {
+  margin-top: 40px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.password-lable {
+  margin-top: 30px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+.inputs {
+  width: 100%;
+  padding: 15px 24px;
+  background-color: #efefef;
+  color: #80807d;
+  border-radius: 5px;
+  border: none;
+}
+
+.forget-password {
+  display: flex;
+  justify-content: end;
+  margin-top: 5px;
+}
+.forget {
+  text-decoration: none;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #565551;
+}
+.login-btn {
+  width: 100%;
+  padding: 15px 24px;
+  background-color: #ecbe13;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #ecbe13;
+  margin-top: 30px;
+}
+.login-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #ecbe13;
+  transition: all 500ms ease-in-out;
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.signUp-clr {
+  color: #ecbe13;
+  text-decoration: none;
+}
+.or {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 500;
+}
+.continue {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.continue-btns {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #80807d;
+  font-weight: 500;
+}
+
+.google-btn {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  width: 48%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: 1px solid #80807d;
+}
+.google-btn:hover {
+  cursor: pointer;
+  background-color: white;
+
+  transition: all 500ms ease-in-out;
+}
+.linkedIn-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  width: 48%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: 1px solid #80807d;
+}
+.linkedIn-btn:hover {
+  cursor: pointer;
+  background-color: white;
+
+  transition: all 500ms ease-in-out;
+}
+/* login page css end */
